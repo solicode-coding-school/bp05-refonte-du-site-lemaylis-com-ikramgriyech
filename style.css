@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 28px;
+    background-color: rgba(243, 250, 234, 0.755);
+}
+
+.pre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    gap: 20px;
+}
+#titleP{
+    position: relative;
+    top: -20px;
+    left: 16px;
+    margin-top: 80px;
+    
+    
+    
+   
+    
+}
+#textp{
+    margin-left: 100px;
+    font-size: 30px;
+    color: rgb(65, 110, 79);
+    font-family: "Italianno";
+}
+   
+
+#text {
+    width: 44%; /* Adjust width to balance the image and text side by side */
+   padding: 20px;
+    background-color:    #eae5d7;
+    color: rgb(7, 0, 0);
+    border-radius: 20px;
+    font-family: "jomhur";
+    
+    
+    left: 190px;
+}
+#textep2{
+    font-family: "jomhur";
+}
+
+#imag2 {
+    width: 570px;
+    height: 800px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    
+   
+   
+    top: 860px;
+    left: 200px;
+   
+}
+
+h1 {
+    color: #7A1E1E;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+   
+    margin-bottom: 45px;
+    padding: 22px;
+   
+}
+#imag1{
+    width: 100%;
+    height: 568px;
+    margin: auto;
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+}
+ #title {
+    position: absolute;
+    top: 45%; /* Increased from 35% to move "le mayles" lower */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(249, 245, 245);
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+.info {
+    position: absolute;
+    top: 55%; /* Adjusted to move "ENJOY WITH US" lower */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+
+}
+
+
+
+
+.container{
+    position: relative;
+    text-align: center;
+}
+
+
+.line {
+    background-color: rgb(122, 30, 30);
+    width: 50px; /* Adjust width to make space for text */
+    height: 5px;
+}
+
+ #titleA{
+    color: rgb(122, 30, 30);
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+}
+.info2{
+    position: absolute;
+    top: 613%; /* Adjusted to move "ENJOY WITH US" lower */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+
+
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto; /* Center the <ul> within the container */
+    padding: 40px 0;
+    width: 100%;
+    max-width: 1200px; /* Set maximum width */
+    min-width: 1260px; /* Optional: Set minimum width if needed */
+    background-color: #4a0f0f; /* Full-width background color */
+    font-size: 20px;
+    color: rgb(250, 250, 250);
+ 
+}
+
+.info2 ul{
+    gap:136px;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    margin-top: 140px;
+
+}
+.table-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    padding: 30px;
+    margin-top: 50px;
+}
+    
+
+#table-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    gap: 20px;
+    margin-top: 70px;
+}
+
+#textetable {
+    width: 45%;
+    text-align: center;
+    padding: 2px;
+    font-family: 'Georgia', serif;
+    margin-right: 50px;
+}
+
+#imgwhite {
+    width: 38%;
+    text-align: center;
+}
+
+#imagtable {
+    position: relative;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    top: 40px;
+    left: 20px;
+}
+#title2{
+    margin-bottom: 30px;
+    padding: 40px;
+    color: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+#info3{
+    position: absolute;
+    top: 400%; /* Adjusted to move "ENJOY WITH US" lower */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+
+}
+.line3{
+    background-color:#c6c9a0;
+    width: 480px; /* Adjust width to make space for text */
+    height: 5px;
+
+
+}
+#whitspace{
+    background-color:#c6c9a0;
+  
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    right: 80px;
+ 
+}
+.munu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between 10px;
+    
+   
+}
+#imagfood1{
+    width: 300px;
+    height: 255px;
+    margin-left:  30px;
+    margin-right:  30px;
+    border-radius: 8px;
+    
+}
+#imagfood2{
+    width: 300px;
+    height: 255px;
+    margin-left:  30px;
+    margin-right:  30px;
+    border-radius: 8px;
+}
+#imagfood3{
+    width: 300px;
+    height: 255px;
+    margin-left:  30px;
+    margin-right:  30px;
+    border-radius: 8px;
+}
+#texttable2{
+     font-family:"jomhur";
+     
+
+}
+
+
+
+
+
+
+
+h2 {
+    text-align: center;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 30px 0 15px;
+    color: #0d0000;
+    position: relative;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2::before,
+h2::after {
+    content: "";
+    width: 1500px; /* Longueur du trait ajustée */
+    height: 5px; /* Épaisseur du trait */
+    background-color: #c6c9a0; /* Couleur du trait */
+}
+
+h2::before {
+    margin-right: 15px; /* Espace entre le trait gauche et le texte */
+}
+
+h2::after {
+    margin-left: 15px; /* Espace entre le trait droit et le texte */
+}
+
+#titre{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color: rgb(18, 2, 2);
+}
+#textroom2{
+    font-family:"Jomhur";
+    font-size: 25px;
+}
+
+.rooms, .activities, .location {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.room-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+   
+}
+
+.room-card {
+    width: 30%;
+    
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    color: rgb(252, 251, 251);
+    background-color:  #4a0f0f;
+    
+
+}
+.Details{
+    font-size: 22px;
+    color: rgb(248, 245, 245);
+    font-family: "Jomhur";
+}
+#textroom{
+   margin-left: 174px;
+   margin-top: 20px;
+   font-size: 40px;
+   font-family: "italianno";
+
+}
+
+
+.room-card img {
+    width: 100%;
+    height: 310px;
+   
+    border: solid 4px ;
+    border-radius:9px;
+    border-color: #e2efd4;
+   
+}
+
+.activities-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.activities-text, .activities-image {
+    width: 48%;
+ 
+    
+}
+.act {
+    top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eae5d7;
+   font-family: "jomhur";
+   font-size: 22px;
+    width: 1160px; /* Définit la largeur */
+    height: 300px; /* Définit la hauteur */
+}
+
+#actTitle{
+    font-size: 40px ;
+    color:rgb(17, 68, 25);
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.activities-image {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+   
+
+
+}
+
+
+
+.activities-image p {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.location img {
+    width: 100%;
+    height: 500px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border:#c6c9a0 5px;
+
+}
+.contact-section {
+    display: flex;
+    max-width: 1000px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#imagEN{
+    width: 300px;
+    height: 255px;
+    margin-left:  30px;
+    margin-right:  30px;
+    border-radius: 8px;
+
+}
+#imaghorse{
+    width: 400px;
+    height: 255px;
+    margin-left:  30px;
+    margin-right:  30px;
+    border-radius: 8px;
+
+}
+#imagBeach{
+    width: 300px;
+    height: 255px;
+    margin-left:  30px;
+    margin-right:  30px;
+    border-radius: 8px;
+
+}
+
+.contact-info {
+    width: 40%;
+    background-color: #eae5d7;
+    color: #150202;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-form {
+    width: 60%;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.contact-form h2 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.contact-form input {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #420909;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact-form button:hover {
+    background-color: #1c3e0f;
+}
+
